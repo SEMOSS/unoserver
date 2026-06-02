@@ -10,7 +10,7 @@ on:
 
 env:
   REGISTRY: ${{ vars.DOCKER_CONTAINER_SEMOSS }}
-  IMAGE_NAME: unoserver
+  IMAGE_NAME: genai/unoserver
 
 jobs:
   build-and-push:
